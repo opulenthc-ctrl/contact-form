@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        
+        <form>
+            <h1>Contact Us</h1>
+           <section id="section1"> <span>first name*</span>
+            <br>
+            <input type="text" id="first name" required class="input"></section>
+
+             <section id="section2"> <span>Last name*</span> <br>
+            <input type="text" id="last name"  required class="input"></section>
+
+            <section id="section3">
+                <span>Email Address*</span>
+            <input type="email" id="email"  required class="input">
+            </section>
+
+            <section id="section4"> <span>Query Type</span> <br> <br>
+    <section class="radio1"><input type="radio" name="radio">General Enquiry</section>
+    <section class="radio2"><input type="radio" name="radio">Support Request</section></section>
+ <section class="message"><span>message</span>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+</section>
+            
+<section id="checkbox"> <input type="checkbox" required> I consent to being contacted by the team</section>
+            <button type="submit"> Submit</button>
+
+        </form>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
